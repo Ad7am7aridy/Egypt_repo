@@ -1,0 +1,537 @@
+@media screen and (max-width: 100px) {
+
+    .column {
+
+        width: 50%;
+
+        display: block;
+
+        margin-bottom: 20px;
+
+    }
+
+}
+@media (min-aspect-ratio:16/9){
+    .back{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio:16/9){
+    .back{
+        width: auto;
+        height: 100%;
+    }
+}
+.column {
+
+    float: left;
+
+    width: 75%;
+
+    padding: 0 10px;
+
+}
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+/* this is for the home page */
+.hero {
+    width: 1140px;
+    height: 94.8vh;
+    position: relative;
+    padding: 0.5%;
+    align-items: center;
+}           
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+}
+nav .Logo {
+    width: 80px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 29px;
+    font-weight: bold;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.content {
+    text-align:end;
+    padding-top: 180px;
+}
+.content h3 {
+    font-size: 135px;
+    color: black;
+    font-weight: 600;
+}
+.content a {
+    text-decoration: none;
+    display:  inline-block;
+    color: black;
+    font-size: 24px;
+    border:  2px solid black;
+    padding:14px 70px ;
+    border-radius: 50px;
+    margin-top: 0px;
+    margin-right: 80px;
+    font-weight: bold;
+}
+.back {
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+/* this is for the pyramids page */
+.hero1 {
+    width: 1140px;
+    height: 20vh;
+    position: relative;
+    padding: 0.5%;
+    align-items: center;
+} 
+.content1 {
+    text-align: center;
+}
+.card1 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("shutterstock_1736402549.jpg");
+    background-position:center ;
+    background-size: cover;
+    margin-top: 50px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+.card2 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("R\ \(1\).jpeg");
+    background-position:center ;
+    background-size: cover;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+.card3 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("OIP.jpeg");
+    background-position:center ;
+    background-size: cover;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+.card4 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("OIP\ \(1\).jpeg");
+    background-position:center ;
+    background-size: cover;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+.card5 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("R\ \(2\).jpeg");
+    background-position:center ;
+    background-size: cover;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+.card6 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("2000x2000-0-70-7e8c83f8a494373eff29ab366774fae7.jpg");
+    background-position:center ;
+    background-size: cover;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+.card7 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("fs1600x1200px-Pyramid_of_Neferirkare_Kakai_8.webp");
+    background-position:center ;
+    background-size: cover;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+.card8 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("pyramiduserkaf.jpg");
+    background-position:center ;
+    background-size: cover;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+.card9 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("OIP\ \(2\).jpeg");
+    background-position:center ;
+    background-size: cover;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+.card10 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("OIP\ \(3\).jpeg");
+    background-position:center ;
+    background-size: cover;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+.card11 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("R\ \(3\).jpeg");
+    background-position:center ;
+    background-size: cover;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s; 
+}
+.card12 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("The-Pyramid-of-Teti-at-Saqqara-1024x683.webp");
+    background-position:center ;
+    background-size: cover;
+    margin-bottom: 50px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+h4 {
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 30px;
+}
+.card1:hover {
+    transform: translateY(-19px);
+}
+.card2:hover {
+    transform: translateY(-19px);
+}
+.card3:hover {
+    transform: translateY(-19px);
+}
+.card4:hover {
+    transform: translateY(-19px);
+}
+.card5:hover {
+    transform: translateY(-19px);
+}
+.card6:hover {
+    transform: translateY(-19px);
+}
+.card7:hover {
+    transform: translateY(-19px);
+}
+.card8:hover {
+    transform: translateY(-19px);
+}
+.card9:hover {
+    transform: translateY(-19px);
+}
+.card10:hover {
+    transform: translateY(-19px);
+}
+.card11:hover {
+    transform: translateY(-19px);
+}
+.card12:hover {
+    transform: translateY(-19px);
+}
+/* This is for Contact page */
+.content2 {
+    text-align:center;
+    padding-top: 80px;
+}
+.content2 h3 {
+    font-size: 135px;
+    color: black;
+    font-weight: 600;
+}
+.content2 a {
+    text-decoration: none;
+    display:  inline-block;
+    color: black;
+    font-size: 24px;
+    border:  2px solid black;
+    padding:14px 70px ;
+    border-radius: 50px;
+    margin-top: 0px;
+    margin-right: 50px;
+    font-weight: bold;
+}
+/* this is for the popular page */
+.hero1 {
+    width: 1140px;
+    height: 20vh;
+    position: relative;
+    padding: 0.5%;
+    align-items: center;
+} 
+.content1 {
+    text-align: center;
+}
+.tcard1 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("OIP\ \(4\).jpeg");
+    background-position:center ;
+    background-size: cover;
+    margin-top: 50px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+.tcard2 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("OIP\ \(5\).jpeg");
+    background-position:center ;
+    background-size: cover;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+.tcard3 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("R\ \(4\).jpeg");
+    background-position:center ;
+    background-size: cover;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+.tcard4 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("R\ \(5\).jpeg");
+    background-position:center ;
+    background-size: cover;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+.tcard5 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("OIF.jpeg");
+    background-position:center ;
+    background-size: cover;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+.tcard6 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("abydos.jpg");
+    background-position:center ;
+    background-size: cover;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+.tcard7 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("R\ \(6\).jpeg");
+    background-position:center ;
+    background-size: cover;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+.tcard8 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("GettyImages-175515407-6971ea3ec92245f5b310744695f87e24.jpg");
+    background-position:center ;
+    background-size: cover;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+.tcard9 {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 45px 65px;
+    background-image: url("R\ \(7\).jpeg");
+    background-position:center ;
+    background-size: cover;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.4s;
+}
+h4 {
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 30px;
+}
+.tcard1:hover {
+    transform: scale(118%);
+}
+.tcard2:hover {
+    transform: scale(118%);
+}
+.tcard3:hover {
+    transform: scale(118%);
+}
+.tcard4:hover {
+    transform: scale(118%);
+}
+.tcard5:hover {
+    transform: scale(118%);
+}
+.tcard6:hover {
+    transform: scale(118%);
+}
+.tcard7:hover {
+    transform: scale(118%);
+}
+.tcard8:hover {
+    transform: scale(118%);
+}
+.tcard9:hover {
+    transform: scale(118%);
+}
